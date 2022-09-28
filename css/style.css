@@ -1,0 +1,31 @@
+body{
+    background-image: url("../assets/backgroundimage.JPEG");
+    text-align: center;
+}
+#title{
+    color: white;
+    font-weight: bold;
+}
+#description{
+    color: #ffffff;
+}
+
+#survey-form{
+    background-color: #52595D;
+    width: 500px;
+    height: 100%;
+    display: inline-block;
+    opacity: 0.8;
+    color: #FFFFFF;
+    font-size: large;
+    padding: 10px;
+}
+#name-label{
+    padding: 10px;
+}
+#email-label{
+    padding: 10px;
+}
+#number-label{
+    padding: 10px;
+}
