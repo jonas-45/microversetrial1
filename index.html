@@ -8,7 +8,40 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<h1>Hello World, we are software developers!</h1>
+<h1 id="title">Jonas and Ovi's Survey Form</h1>
+
+<p id="description">This is the form we are coding for the microverse trials. Its a survey form to take your opinion on our products</p>
+
+<form id="survey-form">
+  <label id="name-label">Name</label><br><input id="name" type="text" placeholder="Wullah Jonas Nuta"><br><br>
+  <label id="email-label">Email</label><br><input id="email" type="email" placeholder="wullahjonas@gmail.com"><br><br>
+  <label id="number-label">Age</label><br><input id="number" type="number" min="10" max="70" placeholder="30"><br><br>
+
+  <label>Which option best describes your current role?</label><br>
+  <select id="dropdown">
+    <option>Select current role</option>
+    <option>student</option>
+    <option>Full time job</option>
+  </select><br><br>
+
+  <label>Would you recommend our survey to a friend?</label>
+  <fieldset id="radiobtn">
+    <input type="radio" value="Definately" name="radiobtn"><label>Definately</label><br>
+    <input type="radio" value="Maybe" name="radiobtn"><label>Maybe</label><br>
+    <input type="radio" value="Not sure" name="radiobtn"><label>Not Sure</label><br>
+</fieldset><br>
+
+<label>Select all that apply</label><br>
+<input type="checkbox" value=""><label>Primary</label><br>
+<input type="checkbox" value=""><label>Secondary</label><br>
+<input type="checkbox" value=""><label>Tertiary</label><br><br>
+
+<label>Comments</label><br>
+<textarea rows="5" cols="20">
+</textarea><br><br>
+
+<input id="submit" value="Submit">
+</form>
     <!--
 
     Hello Camper!
